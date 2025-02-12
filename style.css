@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     overflow-x: hidden;
@@ -6,6 +11,20 @@ body {
 main {
     margin-top: 4.5rem;
     overflow-x: hidden;
+}
+
+.custom-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;    
+    padding: 0;
+}
+
+@media (min-width: 1400px) {
+    .custom-container {
+        max-width: 1400px; /* Define um limite máximo */
+        margin: 0 auto; /* Centraliza na tela */
+    }
 }
 
 .text-center {
