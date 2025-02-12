@@ -76,6 +76,25 @@ main {
     }
 }
 
+.botoes-info {
+    margin-bottom: 2.5rem; 
+}
+
+.btn-custom {
+    color: #ffffff;
+    background: linear-gradient(#8a0278d7, #22015e);
+    width: 8rem;
+    border-radius: 5%;
+    transition: transform 1.5s;
+}
+
+.btn-custom:hover {
+    filter: brightness(1.5);
+    color: #ffffff;
+    font-weight: bold;
+    transform: scale(1.1);
+
+}
 
 .navbar-brand img {
     width: 50px;
@@ -99,11 +118,17 @@ main {
     position: absolute;
 }
 
+
 .card-projetos {
     background-color: #ffffff;
     height: 600px;
     margin: 2rem;
     border-radius: 15px;
+    transition: transform 1.5s;
+}
+
+.card-projetos:hover {
+    transform: scale(1.1);
 }
 
 .card-title a {
